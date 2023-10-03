@@ -19,9 +19,7 @@ export default function App() {
 ReactDOM.render(
   <React.StrictMode>
     <Elements stripe={stripePromise} options={options}>
-
       <App />
-
     </Elements>
   </React.StrictMode>,
   document.getElementById('root')

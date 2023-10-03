@@ -70,7 +70,7 @@ export const ActionModal = ({
             title="confirm action"
             variant={'modal_btns'}
             onClick={onConfirm}
-            className={`group hover:bg-Secondary`}>
+            className={`group hover:bg-Primary`}>
             {confirmText}
           </Button>
           <Button

@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="bg-Overlay text-center text-Primary dark:bg-Overlay dark:text-Primary lg:text-left text-3xl" >
     <div className="mx-12 py-10 text-center md:text-left">
-      <div className="w-full grid gap-8 ml-24 md:grid-cols-2 lg:grid-cols-3 p-18">
+      <div className="w-full grid gap-8 pl-40 md:grid-cols-2 lg:grid-cols-3 p-18">
         <div className="justify-center">
         <Button href="/">
           <span className="sr-only">link with company logo</span>
@@ -36,7 +36,7 @@ export const Footer = () => {
         </div>
         <div>
           <h6
-            className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            className="mb-4 justify-center font-semibold uppercase md:justify-start">
             Contact
           </h6>
           <p className="mb-4 flex items-center justify-center md:justify-start">
